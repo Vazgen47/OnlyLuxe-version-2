@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="luxBg" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3d2f23" />
+      <stop offset="100%" stop-color="#1e1611" />
+    </radialGradient>
+    <linearGradient id="luxGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#caaf83" />
+      <stop offset="50%" stop-color="#b89767" />
+      <stop offset="100%" stop-color="#8f7147" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="31" fill="url(#luxBg)" />
+  <!-- Outer Gold Ring -->
+  <circle cx="32" cy="32" r="28.5" fill="none" stroke="url(#luxGold)" stroke-width="1.5" />
+  <!-- Inner Concentric Ring -->
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#caaf83" stroke-width="0.75" stroke-opacity="0.6" stroke-dasharray="1 0" />
+  <!-- Elegant Monogram L -->
+  <path d="M26 18 H29.5 V39.5 H38.5 V42.5 H26 Z" fill="url(#luxGold)" />
+  <!-- Subtle Top Accent Diamond -->
+  <polygon points="32,9 33.5,11.5 32,14 30.5,11.5" fill="#caaf83" />
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <radialGradient id="luxBg" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3d2f23" />
+      <stop offset="100%" stop-color="#1e1611" />
+    </radialGradient>
+    <linearGradient id="luxGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#caaf83" />
+      <stop offset="50%" stop-color="#b89767" />
+      <stop offset="100%" stop-color="#8f7147" />
+    </linearGradient>
+  </defs>
+  <!-- Monogram Mark -->
+  <g transform="translate(6, 6)">
+    <circle cx="24" cy="24" r="23" fill="url(#luxBg)" />
+    <circle cx="24" cy="24" r="21" fill="none" stroke="url(#luxGold)" stroke-width="1.2" />
+    <circle cx="24" cy="24" r="18.5" fill="none" stroke="#caaf83" stroke-width="0.6" stroke-opacity="0.6" />
+    <path d="M19.5 14 H22.2 V30 H29 V32.5 H19.5 Z" fill="url(#luxGold)" />
+    <polygon points="24,7 25.2,9 24,11 22.8,9" fill="#caaf83" />
+  </g>
+  <!-- Typography -->
+  <text x="68" y="32" font-family="'Noto Serif Armenian', 'Times New Roman', Georgia, serif" font-size="22" font-weight="700" fill="#2b2119" letter-spacing="1.5">ONLYLUXE</text>
+  <text x="70" y="46" font-family="'Noto Sans Armenian', sans-serif" font-size="9" font-weight="600" fill="#b89767" letter-spacing="3.5">LUXURY ATELIER · EVN</text>
+</svg>

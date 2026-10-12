@@ -1,0 +1,8 @@
+{
+  "name": "OnlyLuxe - Luxury Boutique Yerevan",
+  "description": "Բարձրակարգ շքեղ ժամացույցների, պայուսակների և դրամապանակների օնլայն բուտիկ OnlyLuxe EVN:",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
